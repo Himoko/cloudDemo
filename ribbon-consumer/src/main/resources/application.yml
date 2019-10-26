@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ribbon-consumer
+  cloud:
+    zookeeper:
+      connect-string: 203.195.246.36:2181
+      discovery:
+        enabled: true
+        register: true
+server:
+  port: 8085

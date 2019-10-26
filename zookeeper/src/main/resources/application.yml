@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zookeeper
+  cloud:
+    zookeeper:
+      connect-string: 203.195.246.36:2181
+      discovery: true
+server:
+  port: 8083
