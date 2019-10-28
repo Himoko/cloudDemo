@@ -27,6 +27,6 @@ public class TestAPI {
 
     @RequestMapping("/blog-info")
     public String getBlogInfo() {
-        return "从github仓库获取到我的博客信息：" + location + "," + url + "," + name;
+        return "从github仓库获取到我的博客信息：" + location + "," + name + "," + url;
     }
 }
