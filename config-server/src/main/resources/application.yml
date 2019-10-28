@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+#spring…Ë÷√
+spring:
+  application:
+    name: config-server
+  cloud:
+    zookeeper:
+      connect-string: 203.195.246.36:2181
+      discovery:
+        enabled: true
+        register: true
+    config:
+      server:
+        git:
+          uri: https://github.com/Himoko/cloudDemo.git
+          searchPaths: config
